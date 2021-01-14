@@ -6,4 +6,64 @@
 }
 .head-background{
     background-color: #FFFBF0;
+    height: 700px;
+}
+.btn-style{
+    padding: 15px 40px;
+    background-image: linear-gradient(#A4BC46,#85A019);
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 12px;
+    border: 0;
+}
+.penguin-footer{
+    background-color: white;
+    border: 0;
+}
+.border-round{
+    border-radius: 15px;
+    overflow: hidden;
+    width: 92%;
+    border:0;
+}
+.image-border{
+    border-radius: 20px;
+    background-color: #F1F1F1;
+    width: 92%;
+    height: 327px;
+}
+.orange{
+    color: #FABE4C;
+}
+.blue{
+    color: #363958;
+}
+.black{
+    color: #3E3E3E;
+}
+.service-box{
+    border-radius: 15px;
+    height: 35%;
+}
+.service-box p{
+    width: 75%;
+}
+.service-box img{
+    width: 90%;
+}
+@media (max-width:668px){
+    .service-box img{
+        width: 25%;
+        display: block;
+        margin: auto;
+    }
+    .service-box p, h3 {
+        text-align: center;
+        width: 100%;
+    }
+    .column-direction{
+        display: flex;
+        flex-direction:  column-reverse;
+    }
 }
